@@ -19,7 +19,7 @@ public class Asteroid extends Character {
         super(new PolygonFactory().createPolygon(), x, y);
 
         Random rnd = new Random();
-
+        
         super.getCharacter().setRotate(rnd.nextInt(360));
 
         int accelerationAmount = 1 + rnd.nextInt(10);
